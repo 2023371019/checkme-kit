@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca503318.css",
+    "main.js": "/static/js/main.fac0e651.js",
+    "static/js/239.c6d22257.chunk.js": "/static/js/239.c6d22257.chunk.js",
+    "static/js/213.0092d488.chunk.js": "/static/js/213.0092d488.chunk.js",
+    "static/js/732.f01fa11c.chunk.js": "/static/js/732.f01fa11c.chunk.js",
+    "static/js/488.4498c884.chunk.js": "/static/js/488.4498c884.chunk.js",
+    "static/media/header_img.png": "/static/media/header_img.46dc24e9bfa49b075938.png",
+    "static/media/doctor_background.jpg": "/static/media/doctor_background.4ea253233ac81229da81.jpg",
+    "static/media/logo.jpg": "/static/media/logo.caf72294f0a0c6beef45.jpg",
+    "static/media/producto3.jpg": "/static/media/producto3.3a9b6d6df0882141269f.jpg",
+    "static/media/producto1.jpg": "/static/media/producto1.e155214858055026940c.jpg",
+    "static/media/producto2.jpg": "/static/media/producto2.b9f8b748a8a2295bd4f8.jpg",
+    "static/media/producto4.jpg": "/static/media/producto4.882ab8137d645ad0d240.jpg",
+    "static/media/brand_img.png": "/static/media/brand_img.819e3d1ea06522ee3364.png",
+    "static/media/firma.png": "/static/media/firma.fc75cbb7fdac1532b4ac.png",
+    "static/media/logo_dark.svg": "/static/media/logo_dark.b51a75e1959f1d1f62bca2e7dfdaec75.svg",
+    "static/media/logo.svg": "/static/media/logo.e3285c1bf13781a7fe2952fb3de7da4c.svg",
+    "static/media/star_icon.svg": "/static/media/star_icon.9cbf6c7d0e41a31015e034d67d4f865f.svg",
+    "static/media/cross_icon.svg": "/static/media/cross_icon.9a64794069e04939df2002d90672164c.svg",
+    "index.html": "/index.html",
+    "static/media/menu_icon.svg": "/static/media/menu_icon.f6a63a18e3c68d807e50b1037f3e3555.svg",
+    "static/media/left_arrow.svg": "/static/media/left_arrow.38c61a9cb0111cd78d4c52e815708ee8.svg",
+    "static/media/right_arrow.svg": "/static/media/right_arrow.3e841722465c16e709b7d522054f68e5.svg",
+    "main.ca503318.css.map": "/static/css/main.ca503318.css.map",
+    "main.fac0e651.js.map": "/static/js/main.fac0e651.js.map",
+    "239.c6d22257.chunk.js.map": "/static/js/239.c6d22257.chunk.js.map",
+    "213.0092d488.chunk.js.map": "/static/js/213.0092d488.chunk.js.map",
+    "732.f01fa11c.chunk.js.map": "/static/js/732.f01fa11c.chunk.js.map",
+    "488.4498c884.chunk.js.map": "/static/js/488.4498c884.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca503318.css",
+    "static/js/main.fac0e651.js"
+  ]
+}
