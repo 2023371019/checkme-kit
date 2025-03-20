@@ -11,8 +11,7 @@ const socketIo = require("socket.io");  // Importar socket.io
 const crypto = require("crypto");
 
 const app = express();
-const PORT = process.env.PORT || 10000;
-
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -765,7 +764,7 @@ app.get("/api/reporte-usuarios", (req, res) => {
 
 
 // Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
+app.listen(port, () => {
+    console.log(`🚀 Servidor corriendo en http://localhost:${port}`);
 });
 

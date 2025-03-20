@@ -17,8 +17,6 @@ import AdminReportes from "./components/Doctor/AdminReportes";
 import ReporteVentas from "./components/Doctor/ReporteVentas";
 import ReporteUsuarios from "./components/Doctor/ReporteUsuarios";
 
-const API_URL = "https://checkme-kit.onrender.com";
-
 /** Middleware de Autenticación SOLO para PACIENTES */
 const ProtectedPatientRoute = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(null);
@@ -34,7 +32,7 @@ const ProtectedPatientRoute = ({ children }) => {
       }
 
       try {
-        const response = await fetch(`${API_URL}/api/validateSession`, {
+        const response = await fetch("http://localhost:5000/api/validateSession", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ id_usuario: userId, sessionToken }),
@@ -80,7 +78,7 @@ const ProtectedDoctorRoute = ({ children }) => {
       }
 
       try {
-        const response = await fetch(`${API_URL}/api/validateDoctorSession`, {
+        const response = await fetch("http://localhost:5000/api/validateDoctorSession", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ id_doctor: doctorId, sessionToken: doctorSessionToken }),
