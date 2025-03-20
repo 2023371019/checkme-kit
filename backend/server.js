@@ -765,7 +765,7 @@ app.get("/api/reporte-usuarios", (req, res) => {
 
 
 // Iniciar el servidor
-app.listen(port, () => {
-    console.log(`🚀 Servidor corriendo en http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
 });
 
